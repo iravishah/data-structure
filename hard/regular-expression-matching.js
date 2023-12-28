@@ -35,8 +35,6 @@ var isMatch = function(s, p) {
         }
     }
 
-    console.log(i, j)
-
     while (i == sLen && j < pLen) {
         if (s[i - 1] !== p[j] && p[j + 1] !== '*') {
             break
